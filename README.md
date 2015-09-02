@@ -1,6 +1,4 @@
-# frias-cp1406
-
-Frias Group Assignment for CP1406   
+# Frias Group Assignment for CP1406   
 
 Members :   
 1. Thu Yein Tun 13117952    
