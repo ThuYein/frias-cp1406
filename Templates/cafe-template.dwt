@@ -3,42 +3,49 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Frias Cafe</title>
+<title>Untitled Document</title>
 <!-- TemplateEndEditable -->
+<link href="../index.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../layout.css" />
+<link rel="stylesheet" href="../modules.css" />
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
 
-<body>
-<nav>
-<ul>
-	<li><a href="index.html">Home</a>
-      <ul>
-      	<li>Events</li>
-      </ul>
+<body background="../Coffee-Beans-HD-Wallpapers.jpg">
+<table width="1000" align="center" id="table">
+  <tr id="menubar">
+    <td width="930" height="94"><div id="MenuBar">
+    <nav>
+    <ul>
+    <li><a href= "#">Home</a>
+    <ul>
+    <li><a href= "#">Events</a></li>
+    </ul>
     </li>
-    
-    <li>Products
-      <ul>
-      	<li>Order Form</li>
-      </ul>
+    <li><a href= "#">Products</a>
+     <ul>
+    <li><a href= "#">Order Form</a></li>
+    </ul></li>
+    <li><a href= "#">Services</a>
+     <ul>
+    <li><a href= "#">FAQ</a></li>
+    </ul>
+     <ul>
+    <li><a href= "#">FeedBack Form</a>    </li>
+     </ul>
     </li>
-    
-    <li>Services
-      <ul>
-      	<li>F.A.Q</li>
-        <li>Feedback Form</li>
-      </ul>
-    </li>
-    
-    <li><a href="cafe.html">Cafe</a></li>
-
-</ul>
-
-</nav>
-
-<!-- TemplateBeginEditable name="content" -->
-<p>content</p>
-<!-- TemplateEndEditable -->
+    <li><a href= "#">Café</a></li>
+    </ul>
+    </nav>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 </body>
 </html>
