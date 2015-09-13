@@ -1,29 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width" />
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Home</title>
-<link href="index.css" rel="stylesheet" type="text/css" />
-<link href="css/cafe-Logo.css" rel="stylesheet" type="text/css" />
-<!-- Logo -->
-<link href="css/cafe-Logo.css" rel="stylesheet" type="text/css" media="only screen and (min-width:100px) and (max-width:100px)" />
-<style type="text/css">
-html {
-background: url(Images/Cafe/Coffee-Beans-HD-Wallpapers.jpg) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-</style>
+<!-- TemplateEndEditable -->
+<link href="file:///C|/Users/User/Desktop/FRIAS Cafe/index.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
+
+<body background="file:///C|/Users/User/Desktop/FRIAS Cafe/background.gif">
 <a href= "#"></a>
-  <table width="737" align="right" id="table">
+  <table width="1320" align="center" id="table">
   <tr id="menubar">
-    <td width="729" height="99"><div id="MenuBar">
+    <td width="1312" height="94"><div id="MenuBar">
       <nav>
         <ul>
     <li><a href= "#">Home</a>
@@ -51,13 +43,10 @@ background-size: cover;
     </div></td>
   </tr>
 </table>
-
-
-
-
-<a href= "#"></a><img src="Images/Cafe/cafe-logo.png" width="102" height="100" alt="logo img" />
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div id="apDiv1"></div>
-<p>&nbsp;</p></body>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
 </html>
