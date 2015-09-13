@@ -18,28 +18,31 @@
 		<nav>
 			<a href="#" id="menu-icon"></a>
  <ul id="menu">
-		<li><a href="#">Home ￬</a>
+		<li><a href="index.html">Home ￬</a>
         <ul class="hidden">
-				<li><a href="#">Events</a></li>
+				<li><a href="events.html">Events</a></li>
          
         </ul> 
         </li>
-		<li><a href="#">Products</a></li>
+		<li><a href="products.html">Products</a></li>
 		<li>
 			<a href="#">Services ￬</a>
 			<ul class="hidden">
-				<li><a href="#">FAQs</a></li>
-				<li><a href="#">Feedback</a></li>
+				<li><a href="faq.html">FAQs</a></li>
+				<li><a href="feedback-form">Feedback</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Café</a></li>
+		<li><a href="cafe.html">Café</a></li>
 		
 	</ul>
   
 </nav>
 	</header>
 <div class="row row--sliders">
-</div>  
+</div>
+<!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->  
+
+
 </body>
 
 <!-- footer -->
