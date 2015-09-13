@@ -19,23 +19,16 @@
 			<a href="#" id="menu-icon"></a>
  <ul id="menu">
 		<li><a href="#">Home</a></li>
+		<li><a href="#">Products</a></li>
 		<li>
-			<a href="#">About ￬</a>
+			<a href="#">Services ￬</a>
 			<ul class="hidden">
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Do</a></li>
+				<li><a href="#">FAQs</a></li>
+				<li><a href="#">Feedback</a></li>
 			</ul>
 		</li>
-		<li>
-			<a href="#">Portfolio ￬</a>
-			<ul class="hidden">
-				<li><a href="#">Photography</a></li>
-				<li><a href="#">Web & User Interface Design</a></li>
-				<li><a href="#">Illustration</a></li>
-			</ul>
-		</li>
-		<li><a href="#">News</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a href="#">Café</a></li>
+		
 	</ul>
   
 </nav>

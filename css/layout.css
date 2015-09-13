@@ -18,6 +18,9 @@ layout
 {
 	color:#FFFFFF;
 	background:#000000;
+	position:absolute;
+	width:100%;
+	bottom:0;
 }
 	 
 /* row-padding */

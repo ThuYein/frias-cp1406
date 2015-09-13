@@ -8,83 +8,152 @@ banner
 header
 ---------------------------- */
 
-#menubar{
-	width: 1000px;
-	height: 80px;
-	margin-top: 21px;
-	margn-left: auto;
-	margin-right: auto;
-}
-	
-body {
-	background-color: #FFF;
-	background-attachment: fixed;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background-color: #466F8F;
+
+
+img {
+
+	width: 100%;
+
 }
 
-table {
-	background-color: #FFF;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-}
+#logo{
 
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-nav ul li {
-	list-style-type: none;
+	margin: 5px;
+	margin-left:10px;
 	float: left;
+	width: 100px;
+	height: 40px;
 	display: block;
-	width: 180px;
-	height: 80px;
-	text-align: center;
-	line-height: 80px;
-	font-size: 20px;
-	font-family: Tahoma, Geneva, sans-serif
-}
-nav ul li a {
-	text-decoration: none;
-	color: #333;
+
 }
 
-nav a {
-	display:block;
+
+header {
+
+	background: rgba(222, 208, 195, 0.95);
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid #FFFFFF;
+	z-index: 5;
+
 }
-nav ul li:Hover {
-	background-color: #CCC
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	float:right;
+	margin-top:5px;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+li a {
+	display:block;
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
 	
 }
-nav ul li:Hover {
-	border-bottom:3px solid #000;
-	
+
+/*Hover state for top level links*/
+li:hover a {
+	background: #969696;
 }
-nav ul ul {
-	display:none;
+
+/*Style for dropdown links*/
+li:hover ul a 
+{
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
 }
-nav ul li:Hover>ul{
-	display:block;
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	background: #969696;
+	color: #fff;
 }
-nav ul ul li {
-	width: 180px;
-	height:60px;
-	lne-height:55px;
+
+/*Hide dropdown links until they are needed*/
+li ul {
+	display: none;
 }
-#borer {
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	border-top-color: #999;
-	border-right-color: #999;
-	border-bottom-color: #999;
-	border-left-color: #999;
+
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+
+@media only screen and (max-width : 640px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
 }
 
 
@@ -103,7 +172,23 @@ articles
 /* ----------------------------
 footer
 ---------------------------- */
-	
+.footer-text	{
+	clear: both;
+	}
+
+.footer-text h5	{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	padding-top: 28px;
+	font-weight: 400;
+	color: #c5c5c5;
+	}
+
+ .footer-text h5 small a	{
+	color: #c5c5c5;
+	}	
 	
 
 
