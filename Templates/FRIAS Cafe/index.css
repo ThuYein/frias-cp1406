@@ -10,7 +10,14 @@
 	
 body {
 	background-color: #FFF;
+	background-attachment: fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #466F8F;
 }
+
 table {
 	background-color: #FFF;
 	border-top-style: none;
@@ -56,8 +63,23 @@ nav ul ul {
 nav ul li:Hover>ul{
 	display:block;
 }
+
 nav ul ul li {
 	width: 180px;
 	height:60px;
 	lne-height:55px;
+}
+#bar {
+	background-color: #CCC;
+}
+
+#borer {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
 }
