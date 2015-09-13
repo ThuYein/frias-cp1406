@@ -13,35 +13,30 @@
 </head>
 
 <body>
-<nav>
-<ul>
-	<li><a href="index.html">Home</a>
-      <ul>
-      	<li>Events</li>
-      </ul>
-    </li>
-    
-    <li>Products
-      <ul>
-      	<li>Order Form</li>
-      </ul>
-    </li>
-    
-    <li>Services
-      <ul>
-      	<li>F.A.Q</li>
-        <li>Feedback Form</li>
-      </ul>
-    </li>
-    
-    <li><a href="cafe.html">Cafe</a></li>
-
-</ul>
-
-</nav>
-
-<!-- TemplateBeginEditable name="content" -->
-<p>content</p>
-<!-- TemplateEndEditable -->
+<header>
+		<a href="index.html" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#announce">Announcements</a></li>
+				<li><a href="#">Standings</a></li>
+				<li><a href="signUp.html">Sign Up</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<div class="row row--sliders">
+</div>  
 </body>
+
+<!-- footer -->
+<div class="row row--black">
+
+  <div class="footer-text">
+  <h5>Copyright &copy; 2015 FRIAS. All rights Reserved.<br>
+  <small>This website is optimized for Google Chrome. Users may experience animation lag and design omissions while viewing from other browsers.</small></h5>
+</div>
+</div>
+
 </html>
