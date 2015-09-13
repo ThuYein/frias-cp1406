@@ -2,22 +2,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Home</title>
 <!-- TemplateEndEditable -->
 <link href="../index.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="../layout.css" />
-<link rel="stylesheet" href="../modules.css" />
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
 
 <body background="../Coffee-Beans-HD-Wallpapers.jpg">
-<table width="1000" align="center" id="table">
+<a href= "#"></a>
+  <table width="1000" align="center" id="table">
   <tr id="menubar">
     <td width="930" height="94"><div id="MenuBar">
-    <nav>
-    <ul>
+      <nav>
+        <ul>
     <li><a href= "#">Home</a>
     <ul>
     <li><a href= "#">Events</a></li>
@@ -35,9 +35,9 @@
     <li><a href= "#">FeedBack Form</a>    </li>
      </ul>
     </li>
-    <li><a href= "#">Café</a></li>
+    <li>Café</li>
     </ul>
-    </nav>
+  </nav>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
     </div></td>
@@ -45,6 +45,7 @@
 </table>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<div id="apDiv1"></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 </body>
