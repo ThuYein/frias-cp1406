@@ -2,51 +2,47 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Home</title>
+<title>Frias</title>
 <!-- TemplateEndEditable -->
-<link href="../index.css" rel="stylesheet" type="text/css" />
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- css links -->
+<link rel="stylesheet" href="../css/cafe-layout.css" />
+<link rel="stylesheet" href="../css/cafe-modules.css" />
 </head>
 
-<body background="../Coffee-Beans-HD-Wallpapers.jpg">
-<a href= "#"></a>
-  <table width="1000" align="center" id="table">
-  <tr id="menubar">
-    <td width="930" height="94"><div id="MenuBar">
-      <nav>
-        <ul>
-    <li><a href= "#">Home</a>
-    <ul>
-    <li><a href= "#">Events</a></li>
-    </ul>
-    </li>
-    <li><a href= "#">Products</a>
-     <ul>
-    <li><a href= "#">Order Form</a></li>
-    </ul></li>
-    <li><a href= "#">Services</a>
-     <ul>
-    <li><a href= "#">FAQ</a></li>
-    </ul>
-     <ul>
-    <li><a href= "#">FeedBack Form</a>    </li>
-     </ul>
-    </li>
-    <li>Café</li>
-    </ul>
-  </nav>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-    </div></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<div id="apDiv1"></div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<body>
+<header>
+		<a href="index.html" id="logo"><img src="../Images/Cafe/cafe-logo.png" /></a>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+ <ul id="menu">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Products</a></li>
+		<li>
+			<a href="#">Services ￬</a>
+			<ul class="hidden">
+				<li><a href="#">FAQs</a></li>
+				<li><a href="#">Feedback</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Café</a></li>
+		
+	</ul>
+  
+</nav>
+	</header>
+<div class="row row--sliders"></div>
 </body>
+
+<!-- footer -->
+<div class="row row--black">
+
+  <div class="footer-text">
+  <h5>Copyright &copy; 2015 FRIAS. All rights Reserved.<br>
+  <small>This website is optimized for Google Chrome. Users may experience animation lag and design omissions while viewing from other browsers.</small></h5>
+</div>
+</div>
+
 </html>
