@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#FAQ {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	text-decoration: underline;
+	text-align: center;
+	margin-top:80px;
+}
+summary::-webkit-details-marker {
+ color: #000;
+ font-size: 125%;
+ margin-right: 2px;
+}
+summary:focus {
+	outline-style: none;
+}
+article > details > summary {
+	font-size: 23px;
+	margin-top: 16px;
+}
+details > p {
+	margin-left: 24px;
+}
+details details {
+	margin-left: 36px;
+}
+details details summary {
+	font-size: 20px;
+}
+
