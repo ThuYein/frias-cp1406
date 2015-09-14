@@ -1,13 +1,15 @@
 /* ----------------------------
 banner
 ---------------------------- */
-
+.row--banner
+{
+	position:fixed;
+}
 
 
 /* ----------------------------
 header
 ---------------------------- */
-
 
 
 img {
@@ -37,7 +39,8 @@ header {
 	top: 0;
 	left: 0;
 	border-bottom: 4px solid #FFFFFF;
-	z-index: 5;
+	z-index:20;
+	margin-bottom:1px;
 
 }
 
