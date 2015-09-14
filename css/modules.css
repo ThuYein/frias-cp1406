@@ -181,6 +181,8 @@ footer
 ---------------------------- */
 .footer-text	{
 	clear: both;
+	width:100%;
+	
 	}
 
 .footer-text h5	{
@@ -193,7 +195,8 @@ footer
 	color: #c5c5c5;
 	}
 
- .footer-text h5 small a	{
+ .footer-text h5 small a	
+   {
 	color: #c5c5c5;
 	}	
 	

@@ -18,7 +18,12 @@
 		<nav>
 			<a href="#" id="menu-icon"></a>
  <ul id="menu">
-		<li><a href="#">Home</a></li>
+		<li><a href="#">Home ￬</a>
+        	<ul class="hidden">
+				<li><a href="faq.html">FAQs</a></li>
+				<li><a href="feedback-form">Feedback</a></li>
+			</ul>
+        </li>
 		<li><a href="#">Products</a></li>
 		<li>
 			<a href="#">Services ￬</a>
