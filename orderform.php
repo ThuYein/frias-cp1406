@@ -56,8 +56,10 @@ body {
 	top: 99px;
 }
 </style>
-<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
-<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<!--<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />-->
+
+<script src="js/validate.js"></script>
 <!-- InstanceEndEditable -->
 <!-- css links -->
 <link rel="stylesheet" href="css/layout.css" />
@@ -103,21 +105,20 @@ body {
   <p class="Body">&nbsp;</p>
   <div id="Pa1">  </div>
   <div id="apDiv1">
-    <form id="form1" name="form1" method="post" action="">
+  
+    <form name="order" method="post" action="" onsubmit="return validateOrderForm()">    
       <table width="461" border="0" align="left">
         <tr>
-          <td width="124" bgcolor="#E0D2C6"><p> <span class="BodyFont">First Name :</span></p></td>
-          <td width="327" bgcolor="#E0D2C6"><input type="text" name="Fname" id="Fname" /></td>
+          <td width="124" bgcolor="#E0D2C6"><p> <span class="BodyFont">Product Name :</span></p></td>
+          <td width="327" bgcolor="#E0D2C6"><strong><?php echo $_POST["pname"]; ?></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td bgcolor="#E0D2C6"><label for="Lname"><span class="BodyFont">Last Name:</span></label>
-            <label for="Lname"><br />
-          </label></td>
-          <td bgcolor="#E0D2C6"><input type="text" name="Lname2" id="Lname2" /></td>
+          <td bgcolor="#E0D2C6"><span class="BodyFont">Name :</span></td>
+          <td bgcolor="#E0D2C6"><input type="text" name="name"/></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
@@ -125,48 +126,39 @@ body {
         </tr>
         <tr>
           <td bgcolor="#E0D2C6"><p>
-            <label for="Pnumber"><span class="BodyFont">Address:</span></label>
-            <label for="Add5"></label>
-            <label for="Pnumber"><br />
-          </label>
-            <span class="whitetext">s</span>
-            <label for="Add4"></label>
-            <br />
-              <label for="Add2"> </label>
-          </p></td>
-          <td bgcolor="#E0D2C6"><input name="Pnumber" type="text" id="Pnumber" value="" />
-          <input type="text" name="Add3" id="Add5" /></td>
+            <span class="BodyFont">Address :</span></td>
+          <td bgcolor="#E0D2C6"><input type="text" name="address"/></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td bgcolor="#E0D2C6"><p><span class="BodyFont">Phone Number:</span><span id="phoneNum"><span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></p></td>
-          <td bgcolor="#E0D2C6"><input type="text" name="Add" id="Add" /></td>
+          <td bgcolor="#E0D2C6"><p><span class="BodyFont">Phone Number:</span><span id="phoneNum"></p></td>
+          <td bgcolor="#E0D2C6"><input type="text" name="phone"/></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td bgcolor="#E0D2C6"><span class="BodyFont">Email:</span><span id="email"><span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
-          <td bgcolor="#E0D2C6"><input type="text" name="Email Address" id="Email Address" /></td>
+          <td bgcolor="#E0D2C6"><span class="BodyFont">Email:</span></td>
+          <td bgcolor="#E0D2C6"><input type="text" name="email" /></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td bgcolor="#E0D2C6"><span class="BodyFont">Quantity:</span><span id="quantity"><span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
-          <td bgcolor="#E0D2C6"><input type="text" name="Quantity" id="Quantity" /></td>
+          <td bgcolor="#E0D2C6"><span class="BodyFont">Quantity:</span></td>
+          <td bgcolor="#E0D2C6"><input type="text" name="quantity"/></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td bgcolor="#E0D2C6"> <input type="submit" name="Submit" id="Submit" value="Submit" /></td>
+          <td bgcolor="#E0D2C6"><input type="submit" name="Submit" value="Submit" /></td>
           <td>&nbsp;</td>
         </tr>
         <tr>
@@ -175,6 +167,7 @@ body {
         </tr>
       </table>
     </form>
+    
   </div>
   <div id="background">
     <div id="apDiv7"></div>
@@ -185,11 +178,7 @@ body {
 </div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<script type="text/javascript">
-var sprytextfield1 = new Spry.Widget.ValidationTextField("email", "email");
-var sprytextfield2 = new Spry.Widget.ValidationTextField("phoneNum", "phone_number");
-var sprytextfield3 = new Spry.Widget.ValidationTextField("quantity", "integer");
-</script>
+
 <!-- InstanceEndEditable -->  
 
 
