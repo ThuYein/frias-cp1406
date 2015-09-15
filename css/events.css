@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#title {
+	font-size: 36px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#eventstable {
+	font-size: 20px;
+}
