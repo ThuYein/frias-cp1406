@@ -54,4 +54,18 @@ function validateOrderForm() {
 function validateFeedbackForm(){
 	var name = document.forms["feedback"]["name"];
 	var comment = document.forms["feedback"]["comment"];
+
+	if (name.value == "" | name.value == null)
+	{
+		alert("Name cannot be empty.");
+		name.focus();
+		return false;
+	}
+
+	if (comment.value == "" | comment.value == null)
+	{
+		alert("Comment cannot be empty.");
+		comment.focus();
+		return false;
+	}
 }
