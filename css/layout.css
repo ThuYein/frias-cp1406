@@ -9,7 +9,6 @@ layout
 	overflow: hidden;
 	width:100%;
 	margin-top:70px; 
-	margin:0;
 }
 
 /* row-colors */
@@ -23,7 +22,7 @@ layout
 	background:#000000;
 	position:absolute;
 	width:100%;
-	margin:0;
+	bottom:0;
 }
 	 
 /* row-padding */

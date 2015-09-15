@@ -182,11 +182,9 @@ articles
 /* ----------------------------
 footer
 ---------------------------- */
-
 .footer-text	{
 	clear: both;
 	width:100%;
-	
 	
 	}
 
@@ -198,7 +196,6 @@ footer
 	padding-top: 28px;
 	font-weight: 400;
 	color: #c5c5c5;
-	
 	}
 
  .footer-text h5 small a	
@@ -209,41 +206,8 @@ footer
 
 
 /* ----------------------------
-Order form
+Sign Up
 ---------------------------- */
-p1{color:#FFFFFF; line-height:2;}
-h4{ font-size:24px; }
-.row-form
-{
-	background-size:cover;
-	background-image:url(../img/sand.jpg);
-	width:100%;
-	height:750px;
-}
-
-form
-{
-
-  position: relative;
-  margin: 150px auto;
-  width: 280px;
-  padding: 33px 33px 33px;
-  background: white;
-  border-bottom: 1px solid #c4c4c4;
-  border-radius: 5px;
-  background-color:#2C3639;
-  box-shadow: 0.5px 0.5px 2px 2px #000000;
-  
-}
-
-.form-buttons
-{padding:10px;}
-
-.form-text h6
-{
-	padding:10px;
-	color:#CBCBCB;
-}
 
 
 
