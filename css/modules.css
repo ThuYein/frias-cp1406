@@ -212,7 +212,9 @@ footer
 Order form
 ---------------------------- */
 p1{color:#FFFFFF; line-height:2;}
-h4{ font-size:24px; }
+h4
+{ font-size:24px;
+color:#A9A9A9; }
 .row-form
 {
 	background-size:cover;
@@ -221,7 +223,7 @@ h4{ font-size:24px; }
 	height:750px;
 }
 
-form
+.form-style
 {
 
   position: relative;
@@ -239,10 +241,18 @@ form
 .form-buttons
 {padding:10px;}
 
-.form-text h6
+.form-text 
 {
 	padding:10px;
 	color:#CBCBCB;
+}
+
+.product-name
+{
+	border:thin;
+	border-color:#FFFFFF;
+	border-style:solid;
+
 }
 
 

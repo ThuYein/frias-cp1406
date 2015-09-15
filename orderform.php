@@ -37,10 +37,13 @@
 
 <script src="js/validate.js"></script>
 <div class=" row-form">
-<form name="order" method="post" action="" onsubmit="return validateOrderForm()">   
+<form class="form-style" name="order" method="post" action="" onsubmit="return validateOrderForm()">   
  <h4>Order Form</h4>
+ 	
     <p1>Product Name :<br></p1>
-    <?php echo $_POST["pname"]; ?><br>
+    <div class="product-name">
+    <p1><?php echo $_POST["pname"]; ?></p1><br>
+    </div>
     <p1>Customer Name :<br></p1>
     <input type="text" name="name"><br>
     <p1>Address :<br></p1>
