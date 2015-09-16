@@ -25,6 +25,13 @@ layout
 	width:100%;
 	margin:0;
 }
+.row--grey
+{
+	color:#FFFFFF;
+	background:#2C3639;
+	width:100%;
+	margin:0;
+}
 	 
 /* row-padding */
 .row--padding-medium
@@ -71,8 +78,8 @@ wide
 
 	.row--padding-wide
 	{
-		padding-top: 5.5556em;
-		padding-bottom: 5.5556em;
+		padding-top:0;
+		padding-bottom:2em;
 		/* 100px/18px */
 	}
 	
@@ -80,8 +87,8 @@ wide
 	.container-medium,
 	.container-wide
 	{
-		padding-left: 2em;
-		padding-right: 2em;
+		padding-left: 5px;
+		padding-right: 10px;
 	}
 	
 	.container-wide p

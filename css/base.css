@@ -5,6 +5,7 @@ base
 html,
 body
 {
+	margin:0;
 	color: #777;
 	background: #fff;
 }
@@ -39,7 +40,7 @@ img
 }
 
 a:focus img { background: #000; }
-a:hover img { background: #3bb2d0; }
+
 a:active img { background: #af0000; }
 blockquote { margin: 0; }
 
