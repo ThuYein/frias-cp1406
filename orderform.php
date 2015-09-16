@@ -32,7 +32,7 @@
 	</ul>
 </nav>
 </header>
-    
+   <div class="row row-order" > 
 <!-- form -->
 
 <script src="js/validate.js"></script>
@@ -64,7 +64,7 @@
     
     </form>
   </div>  
-    
+ </div>   
     
 <!-- footer -->    
 <div class="row row--black">
