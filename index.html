@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="E:\GitHub\frias-cp1406\Templates\index-template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index-template.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -10,6 +10,11 @@
 <!-- css links -->
 <link rel="stylesheet" href="css/layout.css" />
 <link rel="stylesheet" href="css/modules.css" />
+<link rel="stylesheet" href="css/base.css"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+ 
+
 </head>
 
 <body>
@@ -41,10 +46,96 @@
 <div class="row row--sliders">
 </div>
 
-<!-- InstanceBeginEditable name="Content" -->Content<!-- InstanceEndEditable -->  
-
-
 </body>
+<!-- InstanceBeginEditable name="Content" -->
+<!-- Slider -->
+<div class="row">
+<script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 600,
+      });
+    });
+	
+	$(function(){
+  $("#slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 5000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+
+$(function(){
+  $("#slides").slidesjs({
+    navigation: {
+      active: true,
+        // [boolean] Generates next and previous buttons.
+        // You can set to false and use your own buttons.
+        // User defined buttons must have the following:
+        // previous button: class="slidesjs-previous slidesjs-navigation"
+        // next button: class="slidesjs-next slidesjs-navigation"
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    }
+  });
+});
+  </script>
+ <div id="slides">
+    <img src="Images/Fashion/promo1.jpg">
+    <img src="Images/Fashion/promo2.jpg">
+    <img src="#">
+    <img src="#">
+    <img src="#">
+  </div>
+</div>
+<!--About -->
+<div class="row row--white row--padding-wide">
+  <div class="row container-medium">
+    <div class="row features__row">
+      
+        <h2 class="features__heading">
+         Who are we?
+        </h2>
+        <p class="features__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div> 
+ </div>
+
+
+<!-- featured products -->
+<div class="row row--grey">
+	<div class="prod__left">
+    <p4>Ready<br/> to go<br/> back?<br />
+    Back to school</p4>
+    </div>
+    <div class="prod__right-top">
+    
+    </div>
+    <div class="prod__right-bottom">
+    
+    </div>
+</div>
+<!-- InstanceEndEditable -->  
+
+
+
 
 <!-- footer -->
 <div class="row row--black">
