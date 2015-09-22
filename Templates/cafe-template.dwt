@@ -10,6 +10,7 @@
 <!-- css links -->
 <link rel="stylesheet" href="../css/cafe-layout.css" />
 <link rel="stylesheet" href="../css/cafe-modules.css" />
+<link rel="stylesheet" href="../css/base.css" />
 </head>
 
 <body>
@@ -40,6 +41,8 @@
 	</header>
 <div class="row row--sliders"></div>
 </body>
+
+<!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->  
 
 <!-- footer -->
 <div class="row row--black">
