@@ -49,7 +49,7 @@ layout
 .row--padding-wide
 {
 	padding-top: 2.1875em;
-	padding-bottom: 2.1875em;
+	padding-bottom: ;
 	/* 35px/16px */
 }
 /* containers */
@@ -102,6 +102,8 @@ wide
 	{
 		padding-left: 5px;
 		padding-right: 10px;
+		paddint:0;
+		
 	}
 	
 	.container-wide p

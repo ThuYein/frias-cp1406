@@ -3,37 +3,39 @@
 .row-products
 {
 	margin-top:80px;
+	padding:0;
 }
 .row--featured_products
 {
-	padding-top:20px;
+	padding-top:100px;
 }
-h5
+
+
+button
+{
+	cursor:pointer;
+	margin-bottom:20px;
+	height:280.25px;
+	background:#FF0004;
+	box-shadow:none;
+	border:none;
+	color:#FFFFFF;
+	font-weight:100;
+	
+}
+
+h1 
 {
 	font-size:25px;
 	line-heigt:20px;
 	text-align:center;
-	color:#FFFFFF;
+	color:#FF0004;
 	margin-top:180px;
 	font-weight:100;
 	position:relative;
 	margin-bottom:10px
 }
 
-
-h7
-{
-	color:#FFFFFF;
-	text-align:center;
-	font-size:50px;
-	font-weight:100;
-	
-}
-
-h7 small
-{
-	color:#909090;
-}
 	
 .product-container-1	{
 	cursor: pointer;
@@ -48,8 +50,7 @@ h7 small
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 120px;
-	background:url(../Images/Fashion/BackToSchool.jpg);
-	
+	background:url(../Images/Fashion/Fall/FallCardiganHooded.jpg);
 }
 
 .product-container-2	
@@ -66,7 +67,7 @@ h7 small
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/FallCollection.jpg);
+	background:url(../Images/Fashion/Fall/FallHoodedJacket.001.jpg);
 }
 
 .product-container-3	{
@@ -82,7 +83,7 @@ h7 small
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/NewBorn.jpg);
+	background:url(../Images/Fashion/Fall/FallHoodedTop.001.jpg);
 }
 
 .product-container-4	{
@@ -97,52 +98,55 @@ h7 small
 	border-radius: 30px;
 	float: left;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/Toddler.jpg);
+	background:url(../Images/Fashion/Fall/fallprods.001.jpg);
 }
 
 .product-container-5	{
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-	width: 251.15px;
+	width: 251.25px;
 	height: 251.25px;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	-o-border-radius: 30px;
 	border-radius: 30px;
 	float: left;
+	margin-right: 15px;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/Toddler.jpg);
+	background:url(../Images/Fashion/Fall/fallprods.002.jpg);
 }
 
 .product-container-6	{
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-	width: 251.15px;
+	width: 251.25px;
 	height: 251.25px;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	-o-border-radius: 30px;
 	border-radius: 30px;
 	float: left;
+	margin-right: 15px;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/Toddler.jpg);
+	background:url(../Images/Fashion/Fall/fallprods.003.jpg);
 }
 
 .product-container-7	{
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-	width: 251.15px;
+	width: 251.25px;
 	height: 251.25px;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	-o-border-radius: 30px;
 	border-radius: 30px;
 	float: left;
+	margin-right: 15px;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/Toddler.jpg);
+	background:url(../Images/Fashion/Fall/fallprods.006.jpg);
 }
 
 .product-container-8	{
@@ -157,7 +161,7 @@ h7 small
 	border-radius: 30px;
 	float: left;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/Toddler.jpg);
+	background:url(../Images/Fashion/Fall/joggers.001.jpg);
 }
 
 .product-container-9	{
@@ -171,8 +175,9 @@ h7 small
 	-o-border-radius: 30px;
 	border-radius: 30px;
 	float: left;
+	margin-right:15px;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/Toddler.jpg);
+	background:url(../Images/Fashion/Fall/fallprods.004.jpg);
 }
 
 .product-container-10	{
@@ -187,8 +192,488 @@ h7 small
 	border-radius: 30px;
 	float: left;
 	margin-bottom: 100px;
-	background:url(../Images/Fashion/Toddler.jpg);
+	background:url(../Images/Fashion/Fall/fallprods.005.jpg);
 }
+
+
+.product-container-11	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 120px;
+	background:url(../Images/Fashion/School/School.001.jpg);
+}
+
+.product-container-12	
+{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.002.jpg);
+}
+
+.product-container-13	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.007.jpg);
+}
+
+.product-container-14	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.008.jpg);
+}
+
+.product-container-15	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.010.jpg);
+}
+
+.product-container-16	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.009.jpg);
+}
+
+.product-container-17	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.005.jpg)
+}
+
+.product-container-18	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.006.jpg);
+}
+
+.product-container-19	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right:15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.003.jpg);
+}
+
+.product-container-20	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/School/School.004.jpg);
+}
+
+
+.product-container-21	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 120px;
+	background:url(../Images/Fashion/Newborn/Newborn.008.jpg);
+}
+
+.product-container-22	
+{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.009.jpg)
+}
+
+.product-container-23	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.006.jpg);
+}
+
+.product-container-24	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.004.jpg);
+}
+
+.product-container-25	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.005.jpg);
+}
+
+.product-container-26	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.003.jpg);
+}
+
+.product-container-27	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.010.jpg);
+}
+
+.product-container-28	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.007.jpg);
+}
+
+.product-container-29	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right:15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.002.jpg);
+}
+
+.product-container-30	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/Newborn/Newborn.001.jpg);
+	
+}
+
+.product-container-31	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 120px;
+	background:url(../Images/Fashion/toddler/toddler.003.jpg)
+}
+
+.product-container-32	
+{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.004.jpg);
+}
+
+.product-container-33	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.007.jpg);
+}
+
+.product-container-34	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.008.jpg);
+}
+
+.product-container-35	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.005.jpg);
+}
+
+.product-container-36	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.006.jpg);
+}
+
+.product-container-37	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.25px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.010.jpg);
+}
+
+.product-container-38	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.009.jpg);
+}
+
+.product-container-39	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-right:15px;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.002.jpg);
+}
+
+.product-container-40	{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 251.15px;
+	height: 251.25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	float: left;
+	margin-bottom: 100px;
+	background:url(../Images/Fashion/toddler/toddler.001.jpg);
+	
+}
+
+
 .package-overlay	{
 	width: 251.25px;
 	height: 251.25px;
@@ -226,22 +711,163 @@ h7 small
 	color: #fff;
 	}
 
-.package-container-1:hover	.package-overlay	{
+.product-container-1:hover	.package-overlay	{
 	bottom: 0;
 	}
 
-.package-container-2:hover	.package-overlay	{
+.product-container-2:hover	.package-overlay	{
 	bottom: 0;
 	}
 
-.package-container-3:hover	.package-overlay	{
+.product-container-3:hover	.package-overlay	{
 	bottom: 0;
 	}
 
-.package-container-4:hover	.package-overlay-4	{
+.product-container-4:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+	
+.product-container-5:hover	.package-overlay	{
 	bottom: 0;
 	}
 
+.product-container-6:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-7:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-8:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+.product-container-9:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-10:hover	.package-overlay	{
+	bottom: 0;
+	}
+	
+	
+.product-container-11:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-12:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-13:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-14:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+	
+.product-container-15:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-16:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-17:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-18:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+.product-container-19:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-20:hover	.package-overlay	{
+	bottom: 0;
+	}
+	
+.product-container-21:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-22:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-23:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-24:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+	
+.product-container-25:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-26:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-27:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-28:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+.product-container-29:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-30:hover	.package-overlay	{
+	bottom: 0;
+	}
+	
+.product-container-31:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-32:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-33:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-34:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+	
+.product-container-35:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-36:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-37:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-38:hover	.package-overlay-4	{
+	bottom: 0;
+	}
+.product-container-39:hover	.package-overlay	{
+	bottom: 0;
+	}
+
+.product-container-40:hover	.package-overlay	{
+	bottom: 0;
+	}
+	
 .package-learn-more	{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 25px;

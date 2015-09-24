@@ -212,6 +212,12 @@ h5
 	margin-bottom:10px
 }
 
+.prod-buttons
+{
+	background:lime;
+	margin-bottom:50px;
+}
+
 .product__fall-container-1	{
 	cursor: pointer;
 	position: relative;
